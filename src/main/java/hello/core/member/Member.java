@@ -4,7 +4,7 @@ public class Member {
 
     private Long id;
     private String name;
-    private Grade grade;
+    private final Grade grade;
 
     public Member(Long id, String name, Grade grade) {
         this.id = id;
@@ -32,7 +32,7 @@ public class Member {
         return grade;
     }
 
-    public void setGrade(Grade grade) {
-        this.grade = grade;
-    }
+//    public void setGrade(Grade grade) {
+//        this.grade = grade;
+//    }
 }
